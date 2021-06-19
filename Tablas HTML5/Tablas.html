@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<Html lang="es">
+<Head>
+    <Title>Encabezados y etiqueta Meta</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Lizeth Romero">
+    <meta name="description" content="curso de html5 y css3">
+    <meta name="keywords" content="código html5 etiquetas">
+<!-- estilo especial para una tabla
+      Para definir un estilo especial para una tabla especial, agregue un atributo id a la tabla: y dar estilo con el id-->
+      <style>
+       #estilo tr:nth-child(even) {
+                           background-color: #eee;
+        }
+       #estilo tr:nth-child(odd) {
+                           background-color:#fff;
+        }
+       #estilo th {
+                           background-color: black;
+                           color: white;
+        }
+      </style>
+</head>
+<body>
+<!--Tblas simple-->
+ <caption>Lista de usuarios</caption>
+	<table style="width:100%" id="estilo">
+  <tr>
+    <th>Nombre</th>
+    <th>Apellidos</th> 
+    <th>Edad</th>
+  </tr>
+  <tr>
+    <td>Lizeth</td>
+    <td>Romero Armenta</td>
+    <td>47</td>
+  </tr>
+  <tr>
+    <td>Jesus</td>
+    <td>Romero Armenta</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Luz</td>
+    <td>Armenta Valenzuela</td>
+    <td>80</td>
+  </tr>
+</table>
+</body>
+</html>
